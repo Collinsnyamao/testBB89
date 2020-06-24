@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="10.30.20.89" id="9838fb4b-91e6-4d92-a6e3-6ec7e598e9da" port="22" nameFormat="DESCRIPTIVE" username="bigblue-dev" />
+      <sshConfig authType="PASSWORD" host="10.30.20.91" id="eccf352f-bb6a-41d7-b549-5cb411332d0b" port="22" nameFormat="DESCRIPTIVE" username="priest" />
+    </configs>
+  </component>
+</project>

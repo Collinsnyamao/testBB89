@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="29d8d81d-435b-4f02-a274-a175349eccbe" name="BBlue89" url="http://10.30.20.89">
+        <fileTransfer rootFolder="/home/bigblue-dev/" accessType="SFTP" host="10.30.20.89" port="22" sshConfigId="9838fb4b-91e6-4d92-a6e3-6ec7e598e9da" sshConfig="bigblue-dev@10.30.20.89:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="250352e3-d026-40d5-9715-774f91ced253" name="BigBlue">
+        <fileTransfer rootFolder="/home/bigblue-dev/projects/BigBlue" accessType="SFTP" host="10.30.20.89" port="22" sshConfigId="9838fb4b-91e6-4d92-a6e3-6ec7e598e9da" sshConfig="bigblue-dev@10.30.20.89:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="76a6fd9b-50c9-4339-afc9-1e256d6399ce" name="BigBlue 91">
+        <fileTransfer rootFolder="/home/priest/projects/BigBlue" accessType="SFTP" host="10.30.20.91" port="22" sshConfigId="eccf352f-bb6a-41d7-b549-5cb411332d0b" sshConfig="priest@10.30.20.91:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="8049703e-00ac-40ae-98e7-b23b071e23ce" name="BigBlue 91 PLUGIN login">
+        <fileTransfer rootFolder="/home/priest/projects/BigBlue/web/plugins/auth-username-password/src/main/resources/org/visallo/web/auth/usernamepassword" accessType="SFTP" host="10.30.20.91" port="22" sshConfigId="eccf352f-bb6a-41d7-b549-5cb411332d0b" sshConfig="priest@10.30.20.91:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="183c1432-785b-40eb-bd08-bd616ac49420" name="BigBlue 91 web login">
+        <fileTransfer rootFolder="/home/priest/projects/BigBlue/web/war/src/main/webapp" accessType="SFTP" host="10.30.20.91" port="22" sshConfigId="eccf352f-bb6a-41d7-b549-5cb411332d0b" sshConfig="priest@10.30.20.91:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
